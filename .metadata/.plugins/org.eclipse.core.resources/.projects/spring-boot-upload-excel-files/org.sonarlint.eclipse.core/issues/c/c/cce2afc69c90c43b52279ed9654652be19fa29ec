@@ -1,0 +1,29 @@
+
+k
+java:S1118":Add a private constructor to hide the implicit public one.(œŽ‚òüÿÿÿÿHùRMAJORZ
+CODE_SMELL
+m
+java:S1126"AReplace this if-then-else statement by a single return statement.(Úý÷°HúRMINORZ
+CODE_SMELL
+|
+java:S1104"PMake TYPE a static final constant or non-public and provide accessors if needed.(Þî¯…HûRMINORZ
+CODE_SMELL
+V
+java:S1444"*Make this "public static TYPE" field final(Þî¯…HüRMINORZ
+CODE_SMELL
+v	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(¯¾ØôùÿÿÿÿHýRMAJORZ
+CODE_SMELL
+|
+java:S3008"PRename this field "SHEET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ïƒ–HþRMINORZ
+CODE_SMELL
+v	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(ò–Þ‹ÿÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+Š
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÃóÝûÿÿÿÿH€RMINORZ
+CODE_SMELL
+{
+java:S3008"ORename this field "TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Þî¯…H‚RMINORZ
+CODE_SMELL
+ƒ
+java:S3008"RRename this field "HEADERs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïêþÕûÿÿÿÿHƒRMINORZ
+CODE_SMELL

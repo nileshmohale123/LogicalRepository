@@ -1,0 +1,5 @@
+package com.yash.api.repository;
+
+public interface EmployeeRepository {
+
+}

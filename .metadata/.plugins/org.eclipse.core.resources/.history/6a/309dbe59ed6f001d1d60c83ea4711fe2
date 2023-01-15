@@ -1,0 +1,19 @@
+package com.yash.Immutable;
+
+public final class Employee {
+	
+	final String panCardNumber;
+
+	public Employee(String panCardNumber) {
+		super();
+		this.panCardNumber = panCardNumber;
+	}
+
+	public String getPanCardNumber() {
+		return panCardNumber;
+	}
+	
+	
+	
+
+}

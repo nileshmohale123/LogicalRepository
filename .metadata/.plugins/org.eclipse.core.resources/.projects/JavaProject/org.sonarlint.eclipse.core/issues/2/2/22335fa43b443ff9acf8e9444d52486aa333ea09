@@ -1,0 +1,17 @@
+
+‚
+java:S3973
+"HUse indentation to denote the code conditionally executed by this "for".(İŞÉ¸şÿÿÿÿ8±«ÙŸÈ0H|RCRITICALZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(àÕêåşÿÿÿÿ8±«ÙŸÈ0HRMAJORZ
+CODE_SMELL
+a
+java:S1197"*Move the array designators [] to the type.(·î¥Ïıÿÿÿÿ8±«ÙŸÈ0H~RMINORZ
+CODE_SMELL
+~
+java:S3973"HUse indentation to denote the code conditionally executed by this "for".(Ùé8å°ãŸÈ0H“RCRITICALZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Úñ“¼ùÿÿÿÿ8å°ãŸÈ0H•RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8å°ãŸÈ0H–RMAJORZ
+CODE_SMELL

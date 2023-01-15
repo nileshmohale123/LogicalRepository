@@ -1,0 +1,10 @@
+
+m
+java:S1118":Add a private constructor to hide the implicit public one.(›üâ£8ŸÍö£Ô0H…RMAJORZ
+CODE_SMELL
+w
+java:S1854	"?Remove this useless assignment to local variable "contenttype".(„•æƒûÿÿÿÿ8ŸÍö£Ô0H†RMAJORZ
+CODE_SMELL
+h
+java:S1481	"0Remove this unused "contenttype" local variable.(„•æƒûÿÿÿÿ8ŸÍö£Ô0H‡RMINORZ
+CODE_SMELL

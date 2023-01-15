@@ -1,0 +1,31 @@
+package com.yash.practice;
+
+public final class ImmutableClass {
+
+	private final int id;
+	private final String name;
+
+	public ImmutableClass(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public static void main(String[] args) {
+		
+		ImmutableClass imu=new ImmutableClass(1, "Nilesh");
+		
+		System.out.println(imu.name);
+		
+		//imu.name="jds";
+	}
+
+}

@@ -1,0 +1,23 @@
+
+q	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÉáŸH™RMAJORZ
+CODE_SMELL
+Š
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ã£ úÿÿÿÿHšRMINORZ
+CODE_SMELL
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í•’ÖıÿÿÿÿHœRMINORZ
+CODE_SMELL
+
+java:S1104"UMake EXCELTYPE a static final constant or non-public and provide accessors if needed.(ÃïûÙHRMINORZ
+CODE_SMELL
+[
+java:S1444"/Make this "public static EXCELTYPE" field final(ÃïûÙHRMINORZ
+CODE_SMELL
+€
+java:S3008"TRename this field "EXCELTYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃïûÙHŸRMINORZ
+CODE_SMELL
+f
+java:S1118":Add a private constructor to hide the implicit public one.(µŠÂÜH RMAJORZ
+CODE_SMELL
+n
+java:S1126€"AReplace this if-then-else statement by a single return statement.(äŠ÷ğH¡RMINORZ
+CODE_SMELL

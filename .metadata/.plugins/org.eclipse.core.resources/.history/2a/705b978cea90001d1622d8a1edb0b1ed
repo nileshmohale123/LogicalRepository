@@ -1,0 +1,24 @@
+package com.yash.api.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.yash.api.model.Employee;
+import com.yash.api.service.EmployeeService;
+
+@Controller
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeService employeeService;
+
+	@PostMapping("/save")
+	public Employee addEmployee(@RequestBody Employee employee) {
+
+		return employeeService.saveEmployee(employee);
+	}
+
+}

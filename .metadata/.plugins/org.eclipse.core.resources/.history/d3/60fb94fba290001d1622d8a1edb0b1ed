@@ -1,0 +1,51 @@
+package com.yash.api.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.yash.api.model.Employee;
+import com.yash.api.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+
+	public Employee saveEmployee(Employee employee) {
+
+		return employeeRepository.save(employee);
+	}
+
+	public List<Employee> saveEmployees(List<Employee> employees) {
+
+		return employeeRepository.saveAll(employees);
+	}
+
+	public List<Employee> getEmployee() {
+
+		return employeeRepository.findAll();
+	}
+
+	public Employee getEmployeeById(int id) {
+
+		return employeeRepository.findById(id).orElse(null);
+	}
+
+	public Employee getEmployeeByName(String name) {
+
+		return employeeRepository.findByName(name);
+	}
+
+	public Employee updateEmployee(Employee employee) {
+
+		Employee exist = employeeRepository.findById(employee.getId()).orElse(null);
+		exist.setName(employee.getName());
+		exist.setAddr(employee.getAddr());
+
+		return exist;
+	}
+
+}

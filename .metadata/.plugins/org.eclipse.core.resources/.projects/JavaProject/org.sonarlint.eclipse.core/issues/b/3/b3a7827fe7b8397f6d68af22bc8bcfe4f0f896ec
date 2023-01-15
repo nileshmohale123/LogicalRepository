@@ -1,0 +1,10 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ€šµÿÿÿÿÿH¤RMINORZ
+CODE_SMELL
+Œ
+java:S6206"TRefactor this class declaration to use 'record ImmutableClass(int id, String name)'.(û®™îþÿÿÿÿ8°¢œ‰Î0H¬RMAJORZ
+CODE_SMELL
+g
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ûÁ€d8°¢œ‰Î0H©RMAJORZBUG
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ûÁ€d8°¢œ‰Î0H­RMAJORZ
+CODE_SMELL

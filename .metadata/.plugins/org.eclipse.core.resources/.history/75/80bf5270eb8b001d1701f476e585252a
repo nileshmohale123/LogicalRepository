@@ -1,0 +1,12 @@
+package com.yash.practice;
+
+import java.util.HashMap;
+
+public class HashMapIteration {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, String> map=new HashMap<>();
+		map.put("Java Devloper", "NileshMohale");
+		map.put("Testerz", null)	}
+}

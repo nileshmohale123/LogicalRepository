@@ -1,0 +1,7 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(­Ù§èûÿÿÿÿ8¥‚‰Ê0HšRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ú¼ùé8 ¶ç™Ê0H›RMAJORZ
+CODE_SMELL
+
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(À†Å›ùÿÿÿÿ8¾ê‡Ê0HœRMAJORZBUG

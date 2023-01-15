@@ -1,0 +1,24 @@
+package com.yash.practice;
+
+public class SingletonClass {
+
+	private static SingletonClass s = null;
+
+	String str;
+
+	private SingletonClass() {
+
+		str = "it is singleton class testing..";
+	}
+
+	public static SingletonClass getInstance() {
+
+		if (s == null) {
+
+			s = new SingletonClass();
+		}
+
+		return s;
+	}
+
+}

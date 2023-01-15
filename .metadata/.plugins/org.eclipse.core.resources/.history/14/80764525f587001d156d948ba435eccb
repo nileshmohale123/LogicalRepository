@@ -1,0 +1,33 @@
+package com.yash.practice;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class SecondLargestNoArrayJava8 {
+	
+	public static void main(String[] args) {
+		
+		int arr[]= {11,22,33,44,55,66,77,88,99};
+		
+		int seclargestno=Arrays.stream(arr)
+				.boxed()
+				.sorted(Comparator.reverseOrder())
+				.limit(2)
+				.skip(1)
+				.findFirst()
+				.get();
+		
+		System.out.println(seclargestno);
+		
+		int thirdlargestno=Arrays.stream(arr)
+				.boxed()
+				.sorted(Comparator.reverseOrder())
+				.limit(3)
+				.skip(2)
+				.findFirst()
+				.get();
+		
+		System.out.println(thirdlargestno);
+	}
+
+}

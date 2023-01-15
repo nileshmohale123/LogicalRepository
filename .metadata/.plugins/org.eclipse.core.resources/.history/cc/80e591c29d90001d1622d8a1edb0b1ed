@@ -1,0 +1,19 @@
+package com.yash.practice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapIteration {
+	
+	public static void main(String[] args) {
+		
+		HashMap<String, String> map=new HashMap<>();
+		map.put("Java Devloper", "Nilesh");
+		map.put("Testers", "Vijay");
+		map.put("Python", "KAshinath");
+		
+		for(Map.Entry<String, String> entry:map.entrySet())
+			System.out.println("Key: "+entry.getKey()+", value:"+entry.getValue());
+	}
+
+}

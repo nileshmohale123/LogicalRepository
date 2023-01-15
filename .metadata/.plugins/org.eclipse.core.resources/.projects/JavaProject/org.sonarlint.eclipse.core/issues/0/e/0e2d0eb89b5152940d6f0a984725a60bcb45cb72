@@ -1,0 +1,12 @@
+
+r
+java:S2175"GA "HashMap<String, Integer>" cannot contain a "int" in a "String" type.(²Ñ£†8Îè–„È0HcRMAJORZBUG
+j	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8¶ý·€È0HdRMAJORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(žç›—8’òüÿÇ0HeRMAJORZ
+CODE_SMELL
+E
+java:S1220""Move this file to a named package.HfRMINORZ
+CODE_SMELL
+R
+java:S2201"'The return value of "get" must be used.(²Ñ£†8œÛ¶€È0HgRMAJORZBUG

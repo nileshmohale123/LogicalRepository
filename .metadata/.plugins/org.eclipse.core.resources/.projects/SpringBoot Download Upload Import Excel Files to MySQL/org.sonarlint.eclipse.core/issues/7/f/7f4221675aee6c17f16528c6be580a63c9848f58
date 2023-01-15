@@ -1,0 +1,15 @@
+
+r
+java:S1854#"ARemove this useless assignment to local variable "notExcelFiles".(‹…Ö‘øÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+{
+java:S1612"OReplace this lambda with method reference 'MultipartFile::getOriginalFilename'.(‹¤ÜÏHŒRMINORZ
+CODE_SMELL
+€
+java:S1612$"OReplace this lambda with method reference 'MultipartFile::getOriginalFilename'.(Üÿ¢×ûÿÿÿÿHRMINORZ
+CODE_SMELL
+c
+java:S1481#"2Remove this unused "notExcelFiles" local variable.(‹…Ö‘øÿÿÿÿHRMINORZ
+CODE_SMELL
+l	java:S125("<This block of commented-out lines of code should be removed.(ËŸîÒıÿÿÿÿH’RMAJORZ
+CODE_SMELL

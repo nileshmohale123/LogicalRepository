@@ -1,0 +1,26 @@
+package com.yash.api.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.yash.api.model.Employee;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	private EmployeeService employeeService;
+
+	public Employee saveEmployee(Employee employee) {
+
+		return employeeService.saveEmployee(employee);
+	}
+
+	public List<Employee> saveEmployees(List<Employee> employees) {
+
+		return employeeService.saveEmployees(employees);
+	}
+
+}
